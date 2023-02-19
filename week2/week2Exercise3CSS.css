@@ -1,0 +1,17 @@
+.header {
+    background-color: blue;
+    height: 170px;
+}
+
+.header > h1 {
+    padding: 70px 10px 10px 10px;
+    color: white;
+}
+
+.sidebar {
+    background-color: yellow;
+    display: block;
+    width: 200px;
+    height: 500px;
+    float: left;
+}
