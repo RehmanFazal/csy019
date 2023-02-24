@@ -12,6 +12,32 @@
     background-color: yellow;
     display: block;
     width: 200px;
-    height: 500px;
+    height: 74.7vh;
     float: left;
+}
+
+.rightside {
+    background-color: skyblue;
+    display: block;
+    width: 200px;
+    height: 74.7vh;
+    float: right;
+}
+
+.pagebody {
+    background-color: rgb(103, 103, 243);
+    color: white;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+.footer {
+    background-color: green;
+    position: fixed;
+    left: 208px;
+    bottom: 0;
+    width: 72.6%;
+    height: 5vh;
 }
